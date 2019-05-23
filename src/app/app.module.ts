@@ -7,11 +7,17 @@ import { AppComponent } from './app.component';
 import { MDBBootstrapModulesPro } from 'ng-uikit-pro-standard';
 
 import { MDBSpinningPreloader } from 'ng-uikit-pro-standard';
+import { HomeComponent } from './home/home.component';
+import { SlideshowComponent } from './slideshow/slideshow.component';
+import { GalleryGridComponent } from './gallery-grid/gallery-grid.component';
 
 
 @NgModule({
   declarations: [
-    AppComponent
+    AppComponent,
+    HomeComponent,
+    SlideshowComponent,
+    GalleryGridComponent
   ],
   imports: [
     BrowserModule,
