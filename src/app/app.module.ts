@@ -10,6 +10,7 @@ import { MDBSpinningPreloader } from 'ng-uikit-pro-standard';
 import { HomeComponent } from './home/home.component';
 import { SlideshowComponent } from './slideshow/slideshow.component';
 import { GalleryGridComponent } from './gallery-grid/gallery-grid.component';
+import { HeaderComponent } from './header/header.component';
 
 
 @NgModule({
@@ -17,7 +18,8 @@ import { GalleryGridComponent } from './gallery-grid/gallery-grid.component';
     AppComponent,
     HomeComponent,
     SlideshowComponent,
-    GalleryGridComponent
+    GalleryGridComponent,
+    HeaderComponent
   ],
   imports: [
     BrowserModule,
