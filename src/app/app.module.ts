@@ -11,6 +11,7 @@ import { HomeComponent } from './home/home.component';
 import { SlideshowComponent } from './slideshow/slideshow.component';
 import { GalleryGridComponent } from './gallery-grid/gallery-grid.component';
 import { HeaderComponent } from './header/header.component';
+import { ContactComponent } from './contact/contact.component';
 
 
 @NgModule({
@@ -19,7 +20,8 @@ import { HeaderComponent } from './header/header.component';
     HomeComponent,
     SlideshowComponent,
     GalleryGridComponent,
-    HeaderComponent
+    HeaderComponent,
+    ContactComponent
   ],
   imports: [
     BrowserModule,

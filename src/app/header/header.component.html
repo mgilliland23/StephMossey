@@ -1,3 +1,41 @@
-<p>
-  header works!
-</p>
+<!--Navbar-->
+<mdb-navbar SideClass="navbar navbar-expand-lg navbar-light white" [containerInside]="false">
+
+  <!-- Navbar brand -->
+  <mdb-navbar-brand><a class="navbar-brand" href="#"><img src="assets/icon.png" height="60px"></a>
+  </mdb-navbar-brand>
+
+  <!-- Collapsible content -->
+  <links>
+
+    <!-- Links -->
+    <ul class="navbar-nav mr-auto">
+      <li class="nav-item">
+        <a class="nav-link waves-light" [routerLink]="['/home']" mdbWavesEffect>Home</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link waves-light" [routerLink]="['/gallery']" mdbWavesEffect>Gallery</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link waves-light" mdbWavesEffect>Contact Me</a>
+      </li>
+    </ul>
+    <!-- Links -->
+
+    <ul class="navbar-nav ml-auto mr-3 nav-flex-icons">
+      <li class="nav-item">
+        <a class="nav-link">
+          <mdb-icon size="2x" fab icon="facebook"></mdb-icon>
+        </a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link">
+          <mdb-icon size="2x" fab icon="instagram"></mdb-icon>
+        </a>
+      </li>
+    </ul>
+  </links>
+  <!-- Collapsible content -->
+
+</mdb-navbar>
+<!--/.Navbar-->
